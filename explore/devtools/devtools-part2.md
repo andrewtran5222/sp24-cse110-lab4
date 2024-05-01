@@ -1,0 +1,2 @@
+1. The bug is that since the datatype of result is undefined (and therefore flexible), the input of the calculations are strings, which means that the function runs a string concatenation instead of an addition equation. 
+2. I would fix it by parsing the num1 and num2 into proper integers (or floats, if desired) when initializing the result variable.
